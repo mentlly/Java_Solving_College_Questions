@@ -11,5 +11,6 @@ public class q57 {
         System.out.println("Your name in uppercase: "+name.toUpperCase());
         System.out.println("Your name in lowercase: "+name.toLowerCase());
         System.out.println("Your name length:"+ name.length());
+        sc.close();
     }
 }
