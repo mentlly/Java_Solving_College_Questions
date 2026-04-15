@@ -18,10 +18,10 @@ class TrainTicket {
             selected = true;
             notify();
             Scanner sc = new Scanner(System.in);
-            System.out.print(Thread.currentThread()+"purchase confirm(y/n): ");
+            System.out.print(Thread.currentThread()+"Are u booking(y/n): ");
             String ans = sc.nextLine();
             if(ans.contentEquals("y")) {
-                System.out.println(Thread.currentThread()+"Booked");
+                notify();
             } else {
                 System.out.println(Thread.currentThread()+"Booking cancel");
                 selected = false;
